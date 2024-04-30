@@ -1,13 +1,16 @@
 # Publication-statistics
+
+
+ Obtain publication statistics for a given institution or author using OpenAlex and Google Scholar.
+This repo contains two main scripts, [Author_statistics.ipynb]([url](https://github.com/boumpteryx/Publication-statistics/blob/main/Author_Statistics.ipynb)) 
 <a target="_blank" href="https://colab.research.google.com/github/boumpteryx/Publication-statistics/blob/main/Author_Statistics.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Author In Colab"/>
 </a>
+and [Institution_statistics.ipynb]([url](https://github.com/boumpteryx/Publication-statistics/blob/main/Institution_Statistics.ipynb)). 
 <a target="_blank" href="https://colab.research.google.com/github/boumpteryx/Publication-statistics/blob/main/Institution_Statistics.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Institution In Colab"/>
 </a>
-
- Obtain publication statistics for a given institution or author using OpenAlex and Google Scholar.
-This repo contains two main scripts, [Author_statistics.ipynb]([url](https://github.com/boumpteryx/Publication-statistics/blob/main/Author_Statistics.ipynb)) and [Institution_statistics.ipynb]([url](https://github.com/boumpteryx/Publication-statistics/blob/main/Institution_Statistics.ipynb)). Run the author one if you want to obtain information about a specific author, possibly only as an affiliate to a specific institution. Run the institution one if you want to focus on information regarding a whole institution.
+Run the author one if you want to obtain information about a specific author, possibly only as an affiliate to a specific institution. Run the institution one if you want to focus on information regarding a whole institution.
 
 Two databases are used. OpenAlex is free to use and of very high quality. It contains a lot of information about author affiliation and topics for example. However, it only covers peer-reviewed publications such as full journal papers. Abstracts, ArXiv papers and the like will most likely not appear. Google Scholar includes all types of publications but with very few information about any one of them. We only use Scholar for publication and citation statistics. 
 
