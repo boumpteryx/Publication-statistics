@@ -1,4 +1,4 @@
-# Publication_statistics
+# Publication-statistics
  Obtain publication statistics for a given institution or author using OpenAlex and Google Scholar.
 This repo contains two main scripts, [Author_statistics.ipynb]([url](https://github.com/boumpteryx/Publication-statistics/blob/main/Author_Statistics.ipynb)) and [Institution_statistics.ipynb]([url](https://github.com/boumpteryx/Publication-statistics/blob/main/Institution_Statistics.ipynb)). Run the author one if you want to obtain information about a specific author, possibly only as an affiliate to a specific institution. Run the institution one if you want to focus on information regarding a whole institution.
 
