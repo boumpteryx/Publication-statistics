@@ -11,6 +11,9 @@ and [Institution_statistics.ipynb]([url](https://github.com/boumpteryx/Publicati
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Institution In Colab"/>
 </a>
 Run the author one if you want to obtain information about a specific author, possibly only as an affiliate to a specific institution. Run the institution one if you want to focus on information regarding a whole institution. If you are interested in only looking at a subset of people within your institution (say, faculty), please run the Fculty_subset_statistics file (you will need to upload a csv of IDs for OpenAlex and/or Google Scholar).
+<a target="_blank" href="https://colab.research.google.com/github/boumpteryx/Publication-statistics/blob/main/Faculty_subset_Statistics.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 Two databases are used. OpenAlex is free to use and of very high quality. It contains a lot of information about author affiliation and topics for example. However, it only covers peer-reviewed publications such as full journal papers. Abstracts, ArXiv papers and the like will most likely not appear. Google Scholar includes all types of publications but with very few information about any one of them. We only use Scholar for publication and citation statistics. 
 
